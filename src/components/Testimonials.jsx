@@ -31,7 +31,7 @@ const itemVariants = {
 
 const Testimonials = () => {
     return (
-        <div
+        <section
             id="testimonials"
             className="container mx-auto mt-20 py-16 tracking-tighter"
         >
@@ -66,7 +66,7 @@ const Testimonials = () => {
                     </motion.div>
                 ))}
             </motion.div>
-        </div>
+        </section>
     );
 };
 

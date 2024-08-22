@@ -29,7 +29,7 @@ const HeroSection = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 1 }}
-                        className="text-5xl font-semibold uppercase tracking-wide md:text-7xl"
+                        className="text-6xl font-semibold uppercase tracking-wide md:text-8xl"
                     >
                         {PROFILE.name}
                     </motion.h1>
@@ -37,7 +37,7 @@ const HeroSection = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 1.5 }}
-                        className="pt-2 font-semibold"
+                        className="pt-2 font-semibold md:text-xl"
                     >
                         {PROFILE.info}
                     </motion.p>

@@ -11,7 +11,7 @@ import { EXPERIENCES } from "../constants";
 
 const Experience = () => {
     return (
-        <div id="experience">
+        <section id="experience">
             <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">
                 Experience
             </h2>
@@ -65,9 +65,9 @@ const Experience = () => {
                     </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>
-            <div className="timeline:mt-12 container mx-auto flex flex-col gap-2">
+            <div className="container mx-auto flex flex-col gap-2 timeline:mt-12">
                 <p className="text-center text-white">2024</p>
-                <h3 className="timeline:text-2xl text-center font-semibold">
+                <h3 className="text-center font-semibold timeline:text-2xl">
                     Actively Looking for growth opportunities
                 </h3>
             </div>
@@ -79,7 +79,7 @@ const Experience = () => {
             >
                 <BsDownload /> Resume
             </a>
-        </div>
+        </section>
     );
 };
 

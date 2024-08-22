@@ -5,7 +5,7 @@ import { SOCIAL_MEDIA_LINKS } from "../constants";
 
 const Footer = () => {
     return (
-        <div className="mb-8 mt-20">
+        <footer className="mb-8 mt-20">
             <div className="flex items-center justify-center">
                 <motion.figure
                     initial={{ opacity: 0 }}
@@ -37,9 +37,9 @@ const Footer = () => {
                 ))}
             </div>
             <p className="mt-8 text-center text-sm tracking-wide text-gray-400">
-                Created by @me 😋
+                © 2024 Tarang Jain. All rights reserved.
             </p>
-        </div>
+        </footer>
     );
 };
 

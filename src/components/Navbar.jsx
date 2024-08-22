@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { BsDownload } from "react-icons/bs";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 import logo from "../assets/TARANG.png";
@@ -64,9 +63,9 @@ const Navbar = () => {
                             href="../assets/Tarang_Jain_Resume.pdf"
                             download="Tarang_Jain_Resume.pdf"
                             target="_blank"
-                            className="flex w-28 items-center justify-center gap-2 rounded-full bg-yellow-400 px-1.5 py-1 text-center text-sm font-semibold text-slate-950 hover:bg-yellow-500"
+                            className="flex w-20 items-center justify-center gap-2 rounded-full bg-yellow-400 px-1.5 py-1 text-center text-sm font-semibold text-slate-950 hover:bg-yellow-500"
                         >
-                            <BsDownload /> Resume
+                            Hire Me!
                         </a>
                     </div>
                 </div>
@@ -116,9 +115,9 @@ const Navbar = () => {
                                     href="../assets/Tarang_Jain_Resume.pdf"
                                     download="Tarang_Jain_Resume.pdf"
                                     target="_blank"
-                                    className="mb-4 flex w-28 items-center justify-center gap-2 rounded-full bg-yellow-400 px-1.5 py-1 text-center text-sm font-semibold text-slate-950 hover:bg-yellow-500"
+                                    className="mb-4 flex w-20 items-center justify-center gap-2 rounded-full bg-yellow-400 px-1.5 py-1 text-center text-sm font-semibold text-slate-950 hover:bg-yellow-500"
                                 >
-                                    <BsDownload /> Resume
+                                    Hire Me!
                                 </a>
                             </li>
                         </ul>

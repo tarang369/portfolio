@@ -1,7 +1,6 @@
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsSearchHeart } from "react-icons/bs";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs, FaReact, FaVuejs } from "react-icons/fa";
+import { FaJsSquare, FaNodeJs, FaReact, FaVuejs } from "react-icons/fa";
 import {
     FaDiscord,
     FaGithub,
@@ -10,18 +9,9 @@ import {
     FaXTwitter,
 } from "react-icons/fa6";
 import { LuGraduationCap } from "react-icons/lu";
-import { RiNextjsFill, RiReactjsLine } from "react-icons/ri";
+import { RiNextjsFill, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
-
-import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
-import image3 from "../assets/project3.jpeg";
-import image4 from "../assets/project4.jpeg";
-import image5 from "../assets/project5.jpeg";
-import image6 from "../assets/project6.jpeg";
-import image7 from "../assets/project7.jpeg";
-import image8 from "../assets/project8.jpeg";
 
 export const NAVIGATION_LINKS = [
     { label: "About", href: "#about" },
@@ -44,54 +34,57 @@ export const ABOUT = {
 
 export const PROJECTS = [
     {
-        title: "E-commerce Platform",
-        subtitle:
-            "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
-        image: image1,
+        title: "ProApp - Mobile App",
+        subtitle: "A Digital Design Academy platform built with React-Native.",
+        link: "https://www.proapp.design/",
     },
     {
-        title: "Social Media App",
+        title: "Zebpay - Dashboard",
         subtitle:
-            "A social media application developed using Next.js and Firebase.",
-        image: image2,
+            "India's most trusted cryptocurrency exchange developed using Next.Js and Emotion.",
+        link: "https://zebpay.com/exchange/MATIC-INR",
     },
     {
-        title: "Project Management Tool",
-        subtitle: "A project management tool built with Django and PostgreSQL.",
-        image: image3,
+        title: "Claimslate",
+        subtitle:
+            "An innovative Litigation platform based in Australia developed using Next.Js",
     },
     {
         title: "Personal Portfolio",
         subtitle:
-            "A personal portfolio website designed with HTML, CSS, and JavaScript.",
-        image: image4,
+            "Personal portfolio website designed with React and Tailwind CSS.",
     },
     {
-        title: "Weather Dashboard",
+        title: "Socialstar",
         subtitle:
-            "A weather dashboard application built with Vue.js and Express.js.",
-        image: image5,
+            "A platform that enables organisations to achieve sustainability goals by enabling their employees to create social impact.",
+        link: "https://socialstar.co/",
     },
     {
-        title: "Blog Platform",
+        title: "Kozo",
         subtitle:
-            "A blogging platform developed with Ruby on Rails and PostgreSQL.",
-        image: image6,
+            "An Expense Management platform utilized by film industry leaders like YRF, Dharma, Netflix-IN, etc.",
+        link: "https://www.gokozo.com/",
     },
     {
-        title: "Fitness Tracker",
-        subtitle: "A fitness tracking app created using Flutter and Firebase.",
-        image: image7,
-    },
-    {
-        title: "Recipe Finder",
+        title: "Brij Cinema",
         subtitle:
-            "A recipe finder application developed with Angular and Node.js.",
-        image: image8,
+            "Brij, a Vue.Js powered cinema management solution, offers flexible integration options for a more comprehensive experience.",
+        link: "https://www.brij.tech/",
+    },
+    {
+        title: "Many More...",
+        subtitle:
+            "Oh, those were the days! I worked on countless projects for companies that... well, let's just say they're now part of history. 💀",
     },
 ];
 
 export const SKILLS = [
+    {
+        icon: <FaJsSquare className="text-4xl text-yellow-400 lg:text-6xl" />,
+        name: "JavaScript",
+        experience: "3+ years",
+    },
     {
         icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-6xl" />,
         name: "React",
@@ -103,15 +96,18 @@ export const SKILLS = [
         experience: "2.5+ year",
     },
     {
+        icon: (
+            <RiTailwindCssFill className="text-4xl text-teal-600 lg:text-6xl" />
+        ),
+        name: "Tailwind CSS",
+        experience: "1+ year",
+    },
+    {
         icon: <SiMongodb className="text-4xl text-green-600 lg:text-6xl" />,
         name: "MongoDB",
         experience: "1.5+ years",
     },
-    {
-        icon: <DiRedis className="text-4xl text-red-600 lg:text-6xl" />,
-        name: "Redis",
-        experience: "1+ year",
-    },
+
     {
         icon: <FaNodeJs className="text-4xl text-green-600 lg:text-6xl" />,
         name: "Node.js",
@@ -167,7 +163,7 @@ export const EXPERIENCES = [
             "I graduated after 6 months of studying I found an internship as a front-end developer.",
         icon: LuGraduationCap,
         date: "2019",
-        techstack: [],
+        techstack: ["B.Sc - Information Technology"],
     },
     {
         title: "Full Stack Developer",
@@ -176,7 +172,7 @@ export const EXPERIENCES = [
             "Directed UI development for Kozo, enhancing budget tracking accuracy by 25%. Produced dashboards for UnPaniq using ReactJs and improved data retrieval by 30%.",
         date: "2019 - 2020",
         icon: FaVuejs,
-        techstack: ["Vue", "React", "Express", "Node", "MYSQL", "Bootstrap"],
+        techstack: ["React", "Vue", "Express", "Node", "MYSQL", "Bootstrap"],
     },
     {
         title: "Frontend Developer",
@@ -208,6 +204,7 @@ export const EXPERIENCES = [
             "TypeScript",
             "GraphQL",
             "PostGreSQL",
+            "Styled Components",
         ],
     },
 
@@ -224,7 +221,7 @@ export const EXPERIENCES = [
             "React Native",
             "TypeScript",
             "Tailwind CSS",
-            "Styled Components",
+            "Emotion",
         ],
     },
     {

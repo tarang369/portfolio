@@ -34,7 +34,7 @@ const itemVariants = {
 
 const Project = () => {
     return (
-        <div id="projects">
+        <section id="projects">
             <motion.h2
                 initial="hidden"
                 whileInView="visible"
@@ -65,7 +65,7 @@ const Project = () => {
                     </motion.div>
                 ))}
             </motion.div>
-        </div>
+        </section>
     );
 };
 

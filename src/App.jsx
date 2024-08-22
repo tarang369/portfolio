@@ -1,5 +1,4 @@
 import About from "./components/About";
-// import Achievements from "./components/Achievements";
 import ContactForm from "./components/ContactForm";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
@@ -18,7 +17,6 @@ export default function App() {
             <Skills />
             <Project />
             <Experience />
-            {/* <Achievements /> */}
             <Testimonials />
             <ContactForm />
             <Footer />

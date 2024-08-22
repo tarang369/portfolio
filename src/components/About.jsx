@@ -4,7 +4,7 @@ import { ABOUT } from "../constants";
 
 const About = () => {
     return (
-        <div
+        <section
             className="container mx-auto"
             id="about"
         >
@@ -35,7 +35,7 @@ const About = () => {
             >
                 {ABOUT.text2}
             </motion.p>
-        </div>
+        </section>
     );
 };
 

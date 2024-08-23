@@ -34,7 +34,10 @@ const Navbar = () => {
                 <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 py-3 backdrop-blur-lg lg:flex">
                     <div className="flex justify-between gap-6">
                         <div>
-                            <a href="#">
+                            <a
+                                aria-label="logo"
+                                href="#"
+                            >
                                 <img
                                     src={logo}
                                     width={64}
@@ -47,6 +50,7 @@ const Navbar = () => {
                                 {NAVIGATION_LINKS.map((link) => (
                                     <li key={link.label}>
                                         <a
+                                            aria-label="nav links"
                                             href={link.href}
                                             onClick={(e) =>
                                                 handleLinkClick(e, link.href)
@@ -60,6 +64,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <a
+                            aria-label="Download resume"
                             href="../assets/Tarang_Jain_Resume.pdf"
                             download="Tarang_Jain_Resume.pdf"
                             target="_blank"
@@ -73,7 +78,10 @@ const Navbar = () => {
                 <div className="rounded-lg backdrop-blur-md lg:hidden">
                     <div className="flex items-center justify-between">
                         <div>
-                            <a href="#">
+                            <a
+                                href="#"
+                                aria-label="toggle menu"
+                            >
                                 <img
                                     src={logo}
                                     width={96}
@@ -84,6 +92,7 @@ const Navbar = () => {
                         </div>
                         <div className="flex items-center">
                             <button
+                                aria-label="aria toggle-menu"
                                 className="focus:outline-none lg:hidden"
                                 onClick={toggleMobileMenu}
                             >
@@ -100,6 +109,7 @@ const Navbar = () => {
                             {NAVIGATION_LINKS.map((link) => (
                                 <li key={link.label}>
                                     <a
+                                        aria-label="nav links"
                                         href={link.href}
                                         onClick={(e) =>
                                             handleLinkClick(e, link.href)
@@ -112,6 +122,7 @@ const Navbar = () => {
                             ))}
                             <li>
                                 <a
+                                    aria-label="Download resume"
                                     href="../assets/Tarang_Jain_Resume.pdf"
                                     download="Tarang_Jain_Resume.pdf"
                                     target="_blank"

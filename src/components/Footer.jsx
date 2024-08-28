@@ -11,6 +11,7 @@ const Footer = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1.5, delay: 1 }}
+                    viewport={{ once: true }}
                 >
                     <img
                         src={logo}
@@ -24,6 +25,7 @@ const Footer = () => {
             <div className="flex items-center justify-center gap-8">
                 {SOCIAL_MEDIA_LINKS.map((link, index) => (
                     <motion.a
+                        viewport={{ once: true }}
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.2, delay: 0.5 * index }}

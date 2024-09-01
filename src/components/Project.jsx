@@ -61,6 +61,7 @@ const Project = () => {
                             subtitle={project.subtitle}
                             image={project.image}
                             link={project.link || "#"}
+                            index={index}
                         />
                     </motion.div>
                 ))}

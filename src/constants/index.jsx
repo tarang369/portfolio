@@ -13,6 +13,15 @@ import { RiNextjsFill, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 
+import brij from "../assets/brij.jpg";
+import claimslate from "../assets/claimslate.png";
+import kozo from "../assets/dashboard.png";
+import portfolio from "../assets/portfolio.png";
+import proapp from "../assets/proapp.png";
+import socialstar from "../assets/socialstar.jpg";
+import etc from "../assets/void.png";
+import zebpay from "../assets/zebpay.png";
+
 export const NAVIGATION_LINKS = [
     { label: "About", href: "#about" },
     { label: "Projects", href: "#projects" },
@@ -37,45 +46,53 @@ export const PROJECTS = [
         title: "ProApp - Mobile App",
         subtitle: "A Digital Design Academy platform built with React-Native.",
         link: "https://www.proapp.design/",
+        image: proapp,
     },
     {
         title: "Zebpay - Dashboard",
         subtitle:
             "India's most trusted cryptocurrency exchange developed using Next.Js and Emotion.",
         link: "https://zebpay.com/exchange/MATIC-INR",
+        image: zebpay,
     },
     {
         title: "Claimslate",
         subtitle:
             "An innovative Litigation platform based in Australia developed using Next.Js",
+        image: claimslate,
     },
     {
         title: "Personal Portfolio",
         subtitle:
             "Personal portfolio website designed with React and Tailwind CSS.",
+        image: portfolio,
     },
     {
         title: "Socialstar",
         subtitle:
             "A platform that enables organisations to achieve sustainability goals by enabling their employees to create social impact.",
         link: "https://socialstar.co/",
+        image: socialstar,
     },
     {
         title: "Kozo",
         subtitle:
             "An Expense Management platform utilized by film industry leaders like YRF, Dharma, Netflix-IN, etc.",
         link: "https://www.gokozo.com/",
+        image: kozo,
     },
     {
         title: "Brij Cinema",
         subtitle:
             "Brij, a Vue.Js powered cinema management solution, offers flexible integration options for a more comprehensive experience.",
         link: "https://www.brij.tech/",
+        image: brij,
     },
     {
-        title: "Many More...",
+        title: "Many More...into the void",
         subtitle:
             "Oh, those were the days! I worked on countless projects for companies that... well, let's just say they're now part of history. 💀",
+        image: etc,
     },
 ];
 

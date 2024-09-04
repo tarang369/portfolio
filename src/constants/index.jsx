@@ -16,6 +16,12 @@ import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 import brij from "../assets/brij.jpg";
 import claimslate from "../assets/claimslate.png";
 import kozo from "../assets/dashboard.png";
+import demo1 from "../assets/demo/demo_1.png";
+import demo2 from "../assets/demo/demo_2.png";
+import demo3 from "../assets/demo/demo_3.png";
+import demo4 from "../assets/demo/demo_4.png";
+import demo5 from "../assets/demo/demo_5.png";
+import demo6 from "../assets/demo/demo_6.png";
 import portfolio from "../assets/portfolio.png";
 import proapp from "../assets/proapp.png";
 import socialstar from "../assets/socialstar.jpg";
@@ -139,6 +145,14 @@ export const SKILLS = [
     },
 ];
 
+export const RECENT_WORK = [
+    demo1,
+    demo2,
+    demo3,
+    demo4,
+    demo5,
+    demo6,
+]
 export const ACHIEVEMENT = {
     title: "International Hackaton - Tokyo",
     award: "Gold Medalist - 2024",

@@ -22,7 +22,8 @@ const HeroSection = () => {
             <motion.img
                 src={profilePic}
                 alt={PROFILE.name}
-                fetchPriority="high"
+                fetchpriority="high"
+                loading="eager"
                 onLoad={handleImageLoad}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: isImageLoaded ? 1 : 0 }}

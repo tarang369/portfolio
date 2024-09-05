@@ -308,7 +308,7 @@ export const SOCIAL_MEDIA_LINKS = [
         ),
     },
     {
-        href: "https://www.instagram.com/tarang._/",
+        href: "https://www.instagram.com/tarang._",
         icon: (
             <FaInstagram
                 fontSize={25}
@@ -317,7 +317,7 @@ export const SOCIAL_MEDIA_LINKS = [
         ),
     },
     {
-        href: "https://x.com/Tarang369666",
+        href: "https://x.com/Tdevjs",
         icon: (
             <FaXTwitter
                 fontSize={25}
@@ -335,7 +335,7 @@ export const SOCIAL_MEDIA_LINKS = [
         ),
     },
     {
-        href: "https://www.linkedin.com/in/tdev/",
+        href: "https://www.linkedin.com/in/tdev",
         icon: (
             <FaLinkedin
                 fontSize={25}

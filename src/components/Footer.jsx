@@ -30,7 +30,7 @@ const Footer = () => {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 0.2, delay: 0.5 * index }}
                         key={index}
-                        href={link}
+                        href={link.href || "#"}
                         target="_blank"
                         rel="noopener noreferrer"
                     >

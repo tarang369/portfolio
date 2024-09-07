@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
+const { VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_PUBLIC_KEY } =
+    import.meta.env;
 const ContactForm = () => {
     const [formData, setFormData] = useState({
         name: "",
@@ -43,10 +45,10 @@ const ContactForm = () => {
             setIsSending(true);
             emailjs
                 .send(
-                    import.meta.env.EMAILJS_SERVICE_ID,
-                    import.meta.env.EMAILJS_TEMPLATE_ID,
+                    VITE_EMAILJS_SERVICE_ID,
+                    VITE_EMAILJS_TEMPLATE_ID,
                     formData,
-                    import.meta.env.EMAILJS_PUBLIC_KEY,
+                    VITE_EMAILJS_PUBLIC_KEY,
                 )
                 .then((response) => {
                     console.log("SUCCESS!", response.status, response.text);

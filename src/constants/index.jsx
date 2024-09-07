@@ -43,7 +43,12 @@ export const PROFILE = {
 };
 
 export const ABOUT = {
-    text1: `Transforming ideas into immersive digital experiences.`,
+    text1: {
+        part1: `Transforming `,
+        part2: `ideas `,
+        part3: `into immersive `,
+        part4: `digital experiences`,
+    },
     text2: `I'm a Front-end developer based in Mumbai with a strong focus on crafting pixel-perfect, user-centric designs that enhance digital experiences. With 3+ years of experience in the industry, I specialize in building responsive, efficient, and visually engaging websites using modern technologies like React and Next.js. While Front-end development is my primary passion, my adaptability has allowed me to contribute across other tech stack. I've had the opportunity to work on backend systems, gaining two years of experience, and have also delved into mobile development using React Native. This versatility enables me to seamlessly integrate with various teams and pick up new challenges, ensuring that I can deliver high-quality solutions wherever they are needed.`,
 };
 
@@ -322,7 +327,7 @@ export const SOCIAL_MEDIA_LINKS = [
         ),
     },
     {
-        href: "https://www.instagram.com/tarang._/",
+        href: "https://www.instagram.com/tarang._",
         icon: (
             <FaInstagram
                 fontSize={25}
@@ -331,7 +336,7 @@ export const SOCIAL_MEDIA_LINKS = [
         ),
     },
     {
-        href: "https://x.com/Tarang369666",
+        href: "https://x.com/Tdevjs",
         icon: (
             <FaXTwitter
                 fontSize={25}
@@ -349,7 +354,7 @@ export const SOCIAL_MEDIA_LINKS = [
         ),
     },
     {
-        href: "https://www.linkedin.com/in/tdev/",
+        href: "https://www.linkedin.com/in/tdev",
         icon: (
             <FaLinkedin
                 fontSize={25}

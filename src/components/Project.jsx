@@ -40,7 +40,7 @@ const Project = () => {
                 whileInView="visible"
                 variants={containerVariants}
                 viewport={{ once: true }}
-                className="mt-20 text-center text-4xl font-semibold"
+                className="mt-20 text-center text-4xl font-semibold mb-4"
             >
                 Projects
             </motion.h2>

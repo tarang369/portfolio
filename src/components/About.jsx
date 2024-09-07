@@ -9,7 +9,7 @@ const About = () => {
             id="about"
         >
             <motion.h2
-                className="mt-20 text-center text-4xl font-semibold"
+                className="mt-16 text-center text-4xl font-semibold"
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -18,18 +18,26 @@ const About = () => {
                 About
             </motion.h2>
             <motion.h3
-                className="p4 text-6xl uppercase lg:text-[8rem]"
-                initial={{ opacity: 0, x: -100 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                className="p4 my-8 text-center text-4xl uppercase leading-none lg:text-[4rem] text-zinc-600"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >
-                {ABOUT.text1}
+                {ABOUT.text1.part1}
+                <span className="text-yellow-400">
+                    {ABOUT.text1.part2}
+                </span>
+                <br />
+                {ABOUT.text1.part3}
+                <span className="text-white">
+                    {ABOUT.text1.part4}
+                </span>
             </motion.h3>
             <motion.p
-                className="mr-24 pl-4 text-lg leading-loose"
-                initial={{ opacity: 0, x: 100 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                className="px-4 text-center text-lg leading-loose"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
                 viewport={{ once: true }}
             >

@@ -34,7 +34,7 @@ const HeroSection = () => {
             {/* Gradient Overlay */}
             {isImageLoaded && (
                 <motion.div
-                    className="absolute inset-0 z-20 bg-gradient-to-b from-transparent via-black/50 to-black"
+                    className="absolute -inset-1 z-20 bg-gradient-to-b from-transparent via-black/50 to-black"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}

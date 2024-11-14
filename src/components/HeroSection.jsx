@@ -1,7 +1,9 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-import profilePic from "../assets/test.jpg";
+import profilePic from "../../public/assets/test.jpg";
 import { PROFILE } from "../constants";
 
 const HeroSection = () => {
@@ -20,9 +22,9 @@ const HeroSection = () => {
         >
             {/* Background Image */}
             <motion.img
-                src={profilePic}
+                src={profilePic.src}
                 alt={PROFILE.name}
-                fetchpriority="high"
+                fetchPriority="high"
                 loading="eager"
                 onLoad={handleImageLoad}
                 initial={{ opacity: 0 }}

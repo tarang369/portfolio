@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 import { TESTIMONIALS } from "../constants";
 
@@ -51,10 +52,12 @@ const Testimonials = () => {
                         key={index}
                         className="mx-4 mb-8 flex flex-col items-center rounded-lg border border-dotted border-gray-600 p-6 md:flex-row"
                     >
-                        <img
-                            className="mb-2 mr-6 h-16 w-16 rounded-full md:mb-0"
+                        <Image
+                            className="relative mb-2 mr-6 rounded-full md:mb-0"
                             src={testimonial.image}
                             alt={testimonial.name}
+                            width={64}
+                            height={64}
                         />
                         <div>
                             <p className="mb-4 italic">

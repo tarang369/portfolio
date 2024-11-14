@@ -1,8 +1,11 @@
 import toast from "react-hot-toast";
 
 const Card = ({ title, subtitle, link, image, index }) => {
-
-    const three_colors_cycle = ["bg-yellow-400","bg-white","bg-gray-600 bg-opacity-30"]
+    const three_colors_cycle = [
+        "bg-yellow-400",
+        "bg-white",
+        "bg-gray-600 bg-opacity-30",
+    ];
 
     const handleClick = (e) => {
         if (title === "Personal Portfolio") {
@@ -33,14 +36,25 @@ const Card = ({ title, subtitle, link, image, index }) => {
         >
             <div className="relative">
                 <div className="flex flex-col justify-between p-4 text-white">
-                        <div className={`w-full h-full rounded-lg overflow-hidden ${three_colors_cycle[index % three_colors_cycle.length]}`}>
-                            <img
-                                src={image}
-                                alt={title}
-                                aria-label={title}
-                                className={`w-full h-full ` + (title === "Socialstar" && "max-h-[265px]" || title === "Kozo" && "min-h-[265px] object-contain" || title === "Brij Cinema" && "min-h-[265px] object-contain" || title === "Many More...into the void" && "max-h-[265px] object-contain")} />
-
-                        </div>
+                    <div
+                        className={`h-full w-full overflow-hidden rounded-lg ${three_colors_cycle[index % three_colors_cycle.length]}`}
+                    >
+                        <img
+                            src={image.src}
+                            alt={title}
+                            aria-label={title}
+                            className={
+                                `h-full w-full ` +
+                                ((title === "Socialstar" && "max-h-[265px]") ||
+                                    (title === "Kozo" &&
+                                        "min-h-[265px] object-contain") ||
+                                    (title === "Brij Cinema" &&
+                                        "min-h-[265px] object-contain") ||
+                                    (title === "Many More...into the void" &&
+                                        "max-h-[265px] object-contain"))
+                            }
+                        />
+                    </div>
                     <h2 className="my-2 text-2xl font-bold text-yellow-400">
                         {title}
                     </h2>

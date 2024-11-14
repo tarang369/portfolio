@@ -73,7 +73,7 @@ const Experience = () => {
             </div>
             <a
                 aria-label="Download resume"
-                href="../assets/Tarang_Jain_Resume.pdf"
+                href="../../public/assets/Tarang_Jain_Resume.pdf"
                 download="Tarang_Jain_Resume.pdf"
                 target="_blank"
                 className="mx-auto mt-8 flex w-32 items-center justify-center gap-2 rounded-full bg-yellow-400 px-4 py-2 text-center text-lg font-semibold text-slate-950 hover:bg-yellow-500"

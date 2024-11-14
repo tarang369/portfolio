@@ -1,7 +1,9 @@
+"use client";
+
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-import logo from "../assets/TARANG.png";
+import logo from "../../public/assets/TARANG.png";
 import { NAVIGATION_LINKS } from "../constants";
 
 const Navbar = () => {
@@ -39,7 +41,7 @@ const Navbar = () => {
                                 href="#"
                             >
                                 <img
-                                    src={logo}
+                                    src={logo.src}
                                     width={64}
                                     alt="logo"
                                 />
@@ -65,7 +67,7 @@ const Navbar = () => {
                         </div>
                         <a
                             aria-label="Download resume"
-                            href="../assets/Tarang_Jain_Resume.pdf"
+                            href="../../public/assets/Tarang_Jain_Resume.pdf"
                             download="Tarang_Jain_Resume.pdf"
                             target="_blank"
                             className="flex w-20 items-center justify-center gap-2 rounded-full bg-yellow-400 px-1.5 py-1 text-center text-sm font-semibold text-slate-950 hover:bg-yellow-500"
@@ -83,7 +85,7 @@ const Navbar = () => {
                                 aria-label="toggle menu"
                             >
                                 <img
-                                    src={logo}
+                                    src={logo.src}
                                     width={96}
                                     alt="logo"
                                     className="m-2"
@@ -123,7 +125,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     aria-label="Download resume"
-                                    href="../assets/Tarang_Jain_Resume.pdf"
+                                    href="../../public/assets/Tarang_Jain_Resume.pdf"
                                     download="Tarang_Jain_Resume.pdf"
                                     target="_blank"
                                     className="mb-4 flex w-20 items-center justify-center gap-2 rounded-full bg-yellow-400 px-1.5 py-1 text-center text-sm font-semibold text-slate-950 hover:bg-yellow-500"

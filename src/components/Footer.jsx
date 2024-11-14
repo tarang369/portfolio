@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import logo from "../assets/TARANG.png";
+import logo from "../../public/assets/TARANG.png";
 import { SOCIAL_MEDIA_LINKS } from "../constants";
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
                     viewport={{ once: true }}
                 >
                     <img
-                        src={logo}
+                        src={logo.src}
                         alt="logo"
                         width="200"
                         className="mb-2"

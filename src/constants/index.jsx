@@ -271,25 +271,25 @@ export const TESTIMONIALS = [
         name: "Smitha N",
         title: "Manager",
         quote: "Tarang is passionate about writing code and solving the problems through the development of creative and innovative software. He has tremendous potential. Tarang is vocal about his software ideas, but respects his superiors and enthusiastically tackles every assignment as he is directed. He is friendly, easy to get along with, well-liked by his co-workers. Tarang stays up-to-date on the latest techniques in software development.",
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQFa2xg8HB6VfA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516806827760?e=1729728000&v=beta&t=Yr4rNBThDKBa5-rUVMGCPkgcGDCrGg90DLKnLMHv9GQ",
+        image: "https://media.licdn.com/dms/image/v2/C4D03AQFa2xg8HB6VfA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516806827760?e=1736985600&v=beta&t=4xqvZquEWMVi79Wty2-8Wmio7B3lUuNlAtsT_8DIP-Y",
     },
     {
         name: "Poonam Dhoot",
         title: "Manager/ Data Engineer",
         quote: "a passionate, enthusiastic and curious developer. During his tenure in Sapio he worked on multiple projects with very strict deadlines but he performed extremely well even under pressure.",
-        image: "https://media.licdn.com/dms/image/v2/C5103AQFphSakGBvCjg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1582520240226?e=1729728000&v=beta&t=8w6jD9Begl1NsuoPW8h4MOKCEaBzhvn6DXSJJzQicts",
+        image: "https://media.licdn.com/dms/image/v2/C5103AQFphSakGBvCjg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1582520240226?e=1736985600&v=beta&t=-yKAXKpgBC0AGBpmXm6GTnmr1f_2GvpnaZzBB34FSVs",
     },
     {
         name: "Sakshi Ranka",
         title: "Front-end Developer",
         quote: "A diligent Front End Developer who knows what he does and always comes straight to the fact. He is a fast learner with good coding skills. He stays in touch with latest trends in technology and always aims to inculcate this knowledge in his projects. During my tenure of working with him at Sapio, he helped me understand a lot of things and grow as a developer and I can vouch that he is a nice and competent person to work with.",
-        image: "https://media.licdn.com/dms/image/v2/C5103AQEds6lpw6XMKg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1561792019149?e=1729728000&v=beta&t=RoA0kNnYP2Y4Z95_fJK6MIhSKwjIb_c39lqEK0HBiPg",
+        image: "https://media.licdn.com/dms/image/v2/C5103AQEds6lpw6XMKg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1561792019149?e=1736985600&v=beta&t=YiS2J-zAtj1GBRTvncrccU3yXJesinhBCjyP_QnqfNs",
     },
     {
         name: "Kritika Mehta",
         title: "Product Designer",
         quote: "I have worked with Tarang Jain, he is amazing developer pays attention to detail, very hard working and good team player.",
-        image: "https://media.licdn.com/dms/image/v2/C4D03AQHOCnGuP_Sr3g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1599583242455?e=1729728000&v=beta&t=xzFFx70zt9uYMX_1G0RbLz4ro7dIGdSkBxzWD3WfdVM",
+        image: "https://media.licdn.com/dms/image/v2/C4D03AQHOCnGuP_Sr3g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1599583242455?e=1736985600&v=beta&t=XZZf9GMMLKJ-5Jgo9FGdFAXryMT3WVyslLZPrQy-N10",
     },
 ];
 
